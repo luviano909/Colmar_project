@@ -36,7 +36,7 @@ h4 {
 }
 
 h4:hover {
-    box-shadow: 0 4px white;
+    box-shadow: 0 4px black;
     background-color: rgb(178, 178, 173);
     color: rgb(38, 14, 73);
 }
