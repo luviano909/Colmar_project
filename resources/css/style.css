@@ -60,15 +60,16 @@ a {
 }
 
 strong {
-    font-size: 1.2rem;
+    font-family: 'Francois One', sans-serif;
+    font-weight: lighter;
+    font-size: 1.3rem;
     color: rgb(96, 27, 67);
-    font-weight: bold;
+    /font-weight: bold;
 }
 
 span {
     color: rgb(38, 14, 73);
-    font-weight: bold;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Francois One', sans-serif;
 }
 
 .title {
