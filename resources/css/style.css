@@ -69,9 +69,11 @@ a {
 }
 
 a:hover {
+    border-radius: 10px;
+    transition: border 100ms ease;
     color: rgb(96, 27, 67);
     background-color: white;
-    border: 1px solid black;
+    border: 3px solid rgb(96, 27, 67);
 }
 
 strong {
