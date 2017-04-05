@@ -54,10 +54,23 @@ p {
 }
 
 a {
+    margin-right: 1.5rem;
+    background-color: rgb(96, 27, 67);
+    padding: 0.5rem;
+    /padding-right: 0.2rem;
+    /border-right: 2px solid #555;
     font-family: Helvetica, sans-serif;
     font-size: 1rem;
-    color: rgb(96, 27, 67);
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
     text-decoration: none;
+}
+
+a:hover {
+    color: rgb(96, 27, 67);
+    background-color: white;
+    border: 1px solid black;
 }
 
 strong {
