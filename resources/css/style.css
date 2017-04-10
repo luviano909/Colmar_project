@@ -117,6 +117,10 @@ header {
     font-family: 'Francois One', sans-serif;
 }
 
+.icons {
+    display: none;
+}
+
 .navigation {
     padding-right: 0.5rem;
     display: flex;
@@ -179,7 +183,7 @@ header {
 
 /*Information*/
 .info_cntr {
-    border-top: 2px solid #555;
+    border-top: 2px solid white;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -213,7 +217,6 @@ header {
     display: flex;
     flex-direction: row;
     width: 100%;
-
 }
 
 .schedule_info {
@@ -312,4 +315,149 @@ footer {
 .terms_privacy {
     padding-right: 1.5rem;
     padding-top: 1rem;
+}
+
+/*Media Queries*/
+@media only screen and (max-width: 760px) {
+
+    .icons {
+        padding-right: 0.8rem;
+        flex-direction: row;
+        width: 35%;
+        display: inline-flex;
+        justify-content: flex-end;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .icons img {
+        width: 3rem;
+        height: auto;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .logo_img img {
+        width: 3rem;
+        height: auto;
+    }
+
+    .logo_text {
+        display: none;
+    }
+
+    .banner_cntr {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner_img {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .banner_img img {
+        border-radius: 0;
+    }
+
+    .banner_content {
+        width: 100%;
+    }
+
+    .content {
+        border-top: 2px solid rgb(96, 27, 67);
+        margin-top: 0.5rem;
+        padding: 2rem 1rem;
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+        align-items: center;
+    }
+
+    .img_content {
+        display: none;
+    }
+
+    .info_cntr {
+        flex-direction: column;
+    }
+
+    .info_content {
+        width: 100%;
+        height: 100%;
+    }
+
+    .info {
+        padding: 0;
+        border-radius: 0;
+        background-color: rgb(96, 27, 67);
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .img {
+        width: 100%;
+    }
+
+    .img img {
+        border-radius: 0;
+        padding-top: 1rem;
+        position: relative;
+        left: 20%;
+        right: 25%;
+        width: 60%;
+    }
+
+    .schedule_info {
+        width: 100%;
+        height: 50%;
+        align-items: center;
+        padding-top: 0;
+    }
+
+    .courses {
+        position: relative;
+        left: 1rem;
+    }
+
+    .course {
+        border-radius: 0;
+        border-bottom: 2px solid rgb(96, 27, 67);
+        background-color: transparent;
+        padding-top: 0.5rem;
+        width: 100%;
+    }
+
+    .course img {
+        border-radius: 0;
+    }
+
+    .exhibit_cntr {
+        flex-direction: column;
+    }
+
+    .exhibit_content {
+        display: none;
+    }
+
+    .video {
+        width: 100%;
+        padding: 0;
+    }
+
+    .video_content {
+        padding: 1rem;
+        padding-top: 0;
+    }
+
+
+
+
+
+
+
+
 }
