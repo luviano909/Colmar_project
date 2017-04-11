@@ -44,6 +44,7 @@ h4:hover {
 }
 
 h5 {
+    margin-top: 0.5rem;
     font-size: 0.8rem;
     font-family: 'Francois One', sans-serif;
 }
